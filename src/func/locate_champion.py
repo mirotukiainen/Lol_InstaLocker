@@ -1,6 +1,10 @@
 import pyautogui
+import time
 
-def locate_champ():
-   image = pyautogui.locateOnScreen("src\img\Ahri.png", confidence=0.7)
-   print(f"Champion found at: {image}")
-   pyautogui.moveTo(image)
+def search(champion):
+   search_location = pyautogui.locateOnScreen(f"src\img\search.png", confidence=0.6)
+   print(f"Searchbar found at: {search_location}")
+   pyautogui.moveTo(search_location)
+   pyautogui.leftClick()
+   time.sleep(1)
+   pyautogui.write(champion)
