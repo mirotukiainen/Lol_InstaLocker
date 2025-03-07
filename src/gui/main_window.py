@@ -5,7 +5,7 @@ class MainWindow(qt.QWidget):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("League of Legends InstaLocker")
+        self.setWindowTitle("League of Legends | InstaLocker")
         self.setGeometry(100, 100, 300, 150)
 
         self.input_field = qt.QLineEdit(self)
