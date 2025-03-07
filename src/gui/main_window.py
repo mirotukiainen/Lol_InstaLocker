@@ -1,6 +1,7 @@
 import sys
 import PyQt5.QtWidgets as qt
-
+import time
+from func.locate_champion import locate_champ
 class MainWindow(qt.QWidget):
     def __init__(self):
         super().__init__()
@@ -25,4 +26,6 @@ def run_application():
     app = qt.QApplication(sys.argv)
     window = MainWindow()
     window.show()
+    time.sleep(1)
+    locate_champ()
     sys.exit(app.exec_())
