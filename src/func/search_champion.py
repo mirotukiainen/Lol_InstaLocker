@@ -6,5 +6,5 @@ def search(champion):
    print(f"Searchbar found at: {search_location}")
    pyautogui.moveTo(search_location)
    pyautogui.leftClick()
-   time.sleep(1)
+   time.sleep(0.5)
    pyautogui.write(champion)
