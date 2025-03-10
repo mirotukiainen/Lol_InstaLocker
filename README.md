@@ -2,7 +2,7 @@
 ## Instalock-tool for League of Legends
 
 ### Overview
-*Making this project just for fun. The idea was just to automate picking a champion in League of Legends (doesn't really work anymore with swiftplay and all that).*
+*I'm Making this project just for fun, and the idea was just to automate picking a champion in League of Legends. This isn't anything usable really, since blind pick isn't a thing anymore, and instalocking in ranked is kind of redundant.*
 
 ### Built with:
   1. [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
