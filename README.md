@@ -16,10 +16,10 @@
 
 #### Set up a virtual environment with:
   ##### On Windows (CMD or PowerShell):
-```python -m venv <venv_name>```
+```python -m venv <venv_name>```<br>
 ```<venv_name>\Scripts\Activate```
   ##### On macOs/Linux (Terminal):
-```python3 -m venv <venv_name>```
+```python3 -m venv <venv_name>```<br>
 ```source <venv_name>\bin\activate```
 
 #### Install dependencies:
