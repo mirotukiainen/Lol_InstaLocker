@@ -1,5 +1,4 @@
 # Lol_InstaLocker
-## Instalock-tool for League of Legends
 
 ### Overview
 *I'm making this project just for fun, and the idea was just to automate picking a champion in League of Legends. This isn't anything usable really, since blind pick isn't a thing anymore, and instalocking in ranked is kind of redundant.*
